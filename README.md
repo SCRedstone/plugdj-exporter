@@ -1,4 +1,4 @@
-# playlist-tool
+# plugdj-exporter
 I 'quickly' put together to export my plug.dj JSON data and manage my playlists. It's mainly for my personal use so UX is pretty rough. If you are to use this, please read below!
 
 ## Functionality
