@@ -83,11 +83,11 @@ if errorList:
 del ytID[0]
 print(ytID)
 if ytID:
-    print("more")
     with open(filename, 'w', newline='') as fp:
         csv.writer(fp).writerows(ytID)
 else:
     print("All songs in the queue have been added to playlists.")
-    os.remove(filename)
+
+input("Input anything to exit.")
 
 print("Program end.")
